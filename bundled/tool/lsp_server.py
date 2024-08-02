@@ -48,7 +48,7 @@ RUNNER = pathlib.Path(__file__).parent / "lsp_runner.py"
 MAX_WORKERS = 5
 # TODO: Update the language server name and version.
 LSP_SERVER = server.LanguageServer(
-    name="<pytool-display-name>", version="<server version>", max_workers=MAX_WORKERS
+    name="PyRex", version="0.0.1", max_workers=MAX_WORKERS
 )
 
 
@@ -67,11 +67,11 @@ LSP_SERVER = server.LanguageServer(
 
 # TODO: Update TOOL_MODULE with the module name for your tool.
 # e.g, TOOL_MODULE = "pylint"
-TOOL_MODULE = "<pytool-module>"
+TOOL_MODULE = "pyrex"
 
 # TODO: Update TOOL_DISPLAY with a display name for your tool.
 # e.g, TOOL_DISPLAY = "Pylint"
-TOOL_DISPLAY = "<pytool-display-name>"
+TOOL_DISPLAY = "PyRex"
 
 # TODO: Update TOOL_ARGS with default argument you have to pass to your tool in
 # all scenarios.
